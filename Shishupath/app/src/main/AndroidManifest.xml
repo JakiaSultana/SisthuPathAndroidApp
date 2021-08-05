@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bd.com.websolutionsmb.www.shishupath" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Welcome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Shishupath"
+            android:label="@string/title_activity_shishupath" >
+        </activity>
+        <activity
+            android:name=".Sorborno"
+            android:label="@string/title_activity_sorborno" >
+        </activity>
+        <activity
+            android:name=".Number"
+            android:label="@string/title_activity_number" >
+        </activity>
+        <activity
+            android:name=".Gonona"
+            android:label="@string/title_activity_gonona" >
+        </activity>
+        <activity
+            android:name=".Benjonborno"
+            android:label="@string/title_activity_benjonborno" >
+        </activity>
+        <activity
+            android:name=".Alphabet"
+            android:label="@string/title_activity_alphabet" >
+        </activity>
+        <activity
+            android:name=".Gonona$Chora"
+            android:label="@string/title_activity_chora" >
+        </activity>
+        <activity
+            android:name=".Rhymes"
+            android:label="@string/title_activity_rhymes" >
+        </activity>
+        <activity
+            android:name=".Use"
+            android:label="@string/title_activity_use" >
+        </activity>
+        <activity
+            android:name=".Kichu_kotha"
+            android:label="@string/title_activity_kichu_kotha" >
+        </activity>
+    </application>
+
+</manifest>

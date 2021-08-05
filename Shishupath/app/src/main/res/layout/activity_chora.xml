@@ -1,0 +1,386 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg1"
+    tools:context="bd.com.websolutionsmb.www.shishupath.Gonona.Chora">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="20sp"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:text="\nআতা গাছে তোঁতা পাখি,\nডালিম গাছে মৌ\nএত ডাকি তবু কথা\nকও না কেন বউ ।"
+                android:id="@+id/btnplay1"
+                android:onClick="onClickPlay1"
+                android:background="@drawable/bg5"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="0sp"
+                android:textColor="#fff"
+                android:text="হাট্টিমা টিম টিম\nতারা মাঠে পাড়ে ডিম।\nতাদের খাড়া দুটো শিং,\nতারা হাট্টিমা টিম টিম।
+"
+                android:textSize="25sp"
+                android:id="@+id/btnplay2"
+                android:onClick="onClickPlay2"
+                android:background="@drawable/button_bg_4"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="আয় আয় চাঁদ মামা\nটিপ দিয়ে যা,\nচাঁদের কপালে চাঁদ\nটিপ দিয়ে যা।\nধান ভাংলে কুড়ো দিব,\nমাছ কাঁটলে মুড়ো দিব,\nকালো গাই’য়ের দুধ দিব,\nদুধ খাবার বাটি দিব\nচাঁদের কপালে চাঁদ\nটিপ দিয়ে যা।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay3"
+                android:onClick="onClickPlay3"
+                android:background="@drawable/button_bg_1"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="ঘুম পাড়ানি মাসি পিসি\n মোদের বাড়ি এসো\n খাট নাই ,পালঙ্গ নাই\n খোকার চোখে বসো ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay4"
+                android:onClick="onClickPlay4"
+                android:background="@drawable/button_bg_2"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="আম পাতা জোড়া-জোড়া..\n মারবো চাবুক চড়বো ঘোড়া.. \n ওরে বুবু সরে দাঁড়া.. \n আসছে আমার পাগলা ঘোড়া.. \n পাগলা ঘোড়া ক্ষেপেছে.. \n চাবুক ছুঁড়ে মেরেছে.."
+                android:textSize="25sp"
+                android:id="@+id/btnplay5"
+                android:onClick="onClickPlay5"
+                android:background="@drawable/button_bg_12"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="\nআয় বৃষ্টি ঝেপে\n ধান দেবো মেপে\n লেবুর পাতা করমচা\n এই বৃষ্টি ধরে যা ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay6"
+                android:onClick="onClickPlay6"
+                android:background="@drawable/bg5"/>
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="বাক বাকুম পায়রা\nমাথায় দিয়ে টায়রা\nবউ সাজবে কালকি?\nচড়বে সোনার পালকি  ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay7"
+                android:onClick="onClickPlay7"
+                android:background="@drawable/button_bg_11"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="\nচাঁদ উঠেছে ফুল ফুটেছে \n কদম তলায় কে ? \n হাতি নাচছে\n ঘোড়া নাচছে, \n সোনা মনির বে ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay8"
+                android:onClick="onClickPlay8"
+                android:background="@drawable/bg5"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="আয় রে আয় টিয়ে\n নায়ে ভরা দিয়ে, \n না’ নিয়ে গেল বোয়াল মাছে\n তাই না দেখে ভোঁদড় নাচে, \n ওরে ভোঁদড় ফিরে চা\n খোকার নাচন দেখে যা।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay9"
+                android:onClick="onClickPlay9"
+                android:background="@drawable/button_bg_3"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="ওখানে কে রে ? \n আমি খোকা ।\n মাথায় কী রে ? \n আমের ঝাঁকা ।\n খাসনে কেন রে ? \n দাঁতে পোকা ।\n বিলুস নে কেন রে ? \n ওরে বাবা !"
+                android:textSize="25sp"
+                android:id="@+id/btnplay10"
+                android:onClick="onClickPlay10"
+                android:background="@drawable/button_bg_2"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="\nখোকন খোকন করে মায়\n খোকন গেছে কাদের নায়? \n সাতটা কাকে দাঁড় বায়\n খোকন রে তুই ঘরে আয়।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay11"
+                android:onClick="onClickPlay11"
+                android:background="@drawable/bg5"/>
+
+
+
+
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="\nএই করিনু পণ-\n মোরা এই করিনু পণ\n ফুলের মত গড়ব মোরা\n মোদের এ জীবন ।\n হাসব মোরা সহজ সুখে\n গন্ধ রবে লুকিয়ে বুকে ।\n মোদের কাছে এলে সবার \n জুড়িয়ে যাবে মন ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay15"
+                android:onClick="onClickPlay15"
+                android:background="@drawable/button_bg_1"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="সকালে উঠিয়া আমি \n মনে মনে বলি, \n সারাদিন আমি যেন\n ভাল হয়ে চলি ।\n আদেশ করেন যাহা \n মোর গুরু জনে , \n আমি যেন সেই কাজ\n করি ভাল মনে ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay16"
+                android:onClick="onClickPlay16"
+                android:background="@drawable/button_bg_3"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="ছোট্র পাখি ময়না\n গায়ে দেবে গয়না ।\n ধরেছে সে বায় না ।\n খুকু সোনা দেয় না ।\n ময়না করে রাগ \n খুকু বলে ভাগ ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay17"
+                android:onClick="onClickPlay17"
+                android:background="@drawable/button_bg_5"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="খোকা যাবে  শ্বশুর বাড়ি\n সঙ্গে যাবে কে ? \n ঘরে আছে হূলো বেড়াল \n কোমর বেঁধেছে ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay18"
+                android:onClick="onClickPlay18"
+                android:background="@drawable/button_bg_1"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="\nবেড়াল হল বাঘের মাসি \n সবার ঘরে থাকে, \n একটুখানি আদর পেলে\n মিয়োঁ বলে ডাকে ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay19"
+                android:onClick="onClickPlay19"
+                android:background="@drawable/bg5"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="খোকন গেছে মাছ ধরতে\n ক্ষীর নদীর তীরে\n ছিপ নিয়ে গেল বোয়াল মাছে \n মাছ নিয়ে গেল চিলে ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay20"
+                android:onClick="onClickPlay20"
+                android:background="@drawable/button_bg_1"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="\nদোল দোল দুলুনি , \n রাঙ্গা মাথায় চিরুণি ।\n বর আসবে যখনি , \n নিয়ে যাবে তখনি ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay21"
+                android:onClick="onClickPlay21"
+                android:background="@drawable/bg5"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="ঝক ঝক ঝক ট্রেন চলেছে\n রাত দুপুরে অই ।\n ট্রেন চলেছে , ট্রেন চলেছে\n ট্রেনের বাড়ি কই ?"
+                android:textSize="25sp"
+                android:id="@+id/btnplay22"
+                android:onClick="onClickPlay22"
+                android:background="@drawable/button_bg_4"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="সূয্যি মামা , সূয্যি মামা\n কোথায় তোমার বাড়ি , \n খাওয়া নাই , নাওয়া নাই \n মন কেন ভারী ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay23"
+                android:onClick="onClickPlay23"
+                android:background="@drawable/button_bg_11"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="আমি হব \n সকাল বেলার পাখি , \n সবার আগে কুসুম বাগে\n উঠব আমি ডাকি ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay25"
+                android:onClick="onClickPlay25"
+                android:background="@drawable/button_bg_3"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="সোনা নাচে কূণো \n বলদ বাজায় ঢোল , \n সোনা বউ রেঁধেছে\n ইলিশ মাছের ঝোল ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay26"
+                android:onClick="onClickPlay26"
+                android:background="@drawable/button_bg_2"/>
+
+
+            <Button
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginTop="5sp"
+            android:textColor="#fff"
+            android:text="খুকু যাবে স্কুলেতে\n সঙ্গে খাতা বই ।\n লেখাপড়া করবে সেথায়\n করবে না হৈ চৈ ।"
+            android:textSize="25sp"
+            android:id="@+id/btnplay27"
+            android:onClick="onClickPlay27"
+            android:background="@drawable/button_bg_9"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="নোটন নোটন পায়রাগুলো \n জোটন বেঁধেছে\n ওপারেতে ছেলেমেয়ে \n নাইতে নেমেছে ।\n দুই ধারে দুই রুই কাতলা \n ভেসে উঠেছে ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay28"
+                android:onClick="onClickPlay28"
+                android:background="@drawable/button_bg_7"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="তাই তাই তাই\n মামার বাড়ি যাই\n মামার বাড়ি ভারি মজা\n কিল চড় নাই ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay29"
+                android:onClick="onClickPlay29"
+                android:background="@drawable/button_bg_1"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="উদবিড়ালে খুদ খায়\n চালে নাচে ফিঙ্গে, \n পুঁটি মাছে গীত গায় \n মাগুর বাজায় শিঙ্গে ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay30"
+                android:onClick="onClickPlay30"
+                android:background="@drawable/button_bg_3"/>
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="খোকন খোকন ডাক পাড়ি\n খোকন মোদের কার বাড়ি ? \n আয় রে খোকন ঘরে আয় , \n দুধমাখা ভাত কাকে খায় ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay32"
+                android:onClick="onClickPlay32"
+                android:background="@drawable/button_bg_9"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="তাঁতির বাড়ি\n ব্যাঙের বাসা\n কোলা ব্যাঙের ছা ।\n খায় দায় \n গান গায় \n তাইরে নাইরে না ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay33"
+                android:onClick="onClickPlay33"
+                android:background="@drawable/button_bg_7"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="\nআমার মা না হয়ে তুমি \n আর কারো মা হলে , \n ভাবছো তোমায় চিনতেম না\n যেতেম না ঐ কোলে ?"
+                android:textSize="25sp"
+                android:id="@+id/btnplay34"
+                android:onClick="onClickPlay34"
+                android:background="@drawable/bg5"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="আয় রে আয় মেনি\n খোকার দুধে চিনি ।\n দুধু খাবে না রাগ করেছে \n খোকন জাদুমণি ।\n আয় রে আয় মেনি ।"
+                android:textSize="25sp"
+                android:id="@+id/btnplay36"
+                android:onClick="onClickPlay36"
+                android:background="@drawable/button_bg_5"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

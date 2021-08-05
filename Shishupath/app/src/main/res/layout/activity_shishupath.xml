@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg1"
+    tools:context="bd.com.websolutionsmb.www.shishupath.Shishupath">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="20sp"
+                android:textSize="30sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="স্বরবর্ণ "
+                android:id="@+id/btn1"
+                android:background="@drawable/button_bg_14"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="ব্যঞ্জনবর্ণ"
+                android:textSize="30sp"
+                android:id="@+id/btn2"
+                android:background="@drawable/button_bg_5"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="Alphabet"
+                android:textStyle="bold"
+                android:id="@+id/btn3"
+                android:textSize="30sp"
+                android:background="@drawable/button_bg_7"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="গণনা"
+                android:textSize="30sp"
+                android:id="@+id/btn4"
+                android:background="@drawable/button_bg_9"/>
+
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="Number"
+                android:textSize="30sp"
+                android:background="@drawable/button_bg_8"
+                android:id="@+id/btn5"/>
+
+
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="ছড়া"
+                android:textSize="30sp"
+                android:background="@drawable/button_bg_11"
+                android:id="@+id/btn6"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="Rhymes"
+                android:textSize="30sp"
+                android:background="@drawable/button_bg_13"
+                android:id="@+id/btn7"/>
+
+
+
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="ব্যবহার"
+                android:textSize="30sp"
+                android:background="@drawable/button_bg_10"
+                android:id="@+id/btn8" />
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="কিছু কথা"
+                android:textSize="30sp"
+                android:background="@drawable/button_bg_15"
+                android:id="@+id/btn9" />
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Bornoporichiti</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_shishupath">শিশু শিক্ষা</string>
+    <string name="title_activity_sorborno">স্বরবর্ণ </string>
+    <string name="title_activity_number">Number</string>
+    <string name="title_activity_gonona">গননা</string>
+    <string name="title_activity_benjonborno">ব্যঞ্জনবর্ণ</string>
+    <string name="title_activity_alphabet">Alphabet</string>
+    <string name="title_activity_chora">ছড়া</string>
+    <string name="title_activity_rhymes">Rhymes</string>
+    <string name="title_activity_use">ব্যবহার</string>
+    <string name="title_activity_kichu_kotha">কিছু কথা</string>
+
+
+
+</resources>

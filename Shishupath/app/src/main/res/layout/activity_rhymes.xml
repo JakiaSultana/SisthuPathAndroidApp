@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/shishupath"
+    tools:context="bd.com.websolutionsmb.www.shishupath.Rhymes">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="20sp"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:text="I love my country\n I love my land\n Green Bangladesh\n My motherland."
+                android:id="@+id/btnplayr1"
+                android:onClick="onClickPlayr1"
+                android:background="@drawable/button_bg_5"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="Early to bed\n And early to rise\n Makes a man healthy\n Wealthy and wise."
+                android:textSize="25sp"
+                android:id="@+id/btnplayr2"
+                android:onClick="onClickPlayr2"
+                android:background="@drawable/button_bg_9"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="Hickrory, dickror, dock!\n The mouse ran up the clock;\n The clock struck one!\n Down the mouse ran;\n Hickrory, dickror, dock!।"
+                android:textSize="25sp"
+                android:id="@+id/btnplayr3"
+                android:onClick="onClickPlayr3"
+                android:background="@drawable/button_bg_1"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="I see the moon\n And the moon see me\n God bless the moon\n And God bless me."
+                android:textSize="25sp"
+                android:id="@+id/btnplayr4"
+                android:onClick="onClickPlayr4"
+                android:background="@drawable/button_bg_10"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="Rain, rain go away\n Come again another day\n Little Jhony wants to play."
+                android:textSize="25sp"
+                android:id="@+id/btnplayr5"
+                android:onClick="onClickPlayr5"
+                android:background="@drawable/button_bg_11"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="Twinkle Twinkle Little Star,\n How I wonder what you are?\n Up above the world so high,\n Like a diamond in the sky."
+                android:textSize="25sp"
+                android:id="@+id/btnplayr6"
+                android:onClick="onClickPlayr6"
+                android:background="@drawable/button_bg_1"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="Johny, Johny! \n Yes, Papa \n Eating sugar? \n No, Papa\n Telling lies? \n No, Papa\n Open your mouth! \n Ha! Ha! Ha!"
+                android:textSize="25sp"
+                android:id="@+id/btnplayr7"
+                android:onClick="onClickPlayr7"
+                android:background="@drawable/button_bg_5"/>
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="\n Baa, baa, black sheep, \n Have you any wool? \n Yes, sir, yes, sir, \n Three bags full;"
+                android:textSize="25sp"
+                android:id="@+id/btnplayr8"
+                android:onClick="onClickPlayr8"
+                android:background="@drawable/bg5"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="One, two, \n Buckle my shoe; \n Three, four, \n Open the door; \n Five, six,Pick up sticks; \n Seven, eight, \n Lay them straight: \n Nine, ten, \n A big, fat hen;"
+                android:textSize="25sp"
+                android:id="@+id/btnplayr9"
+                android:onClick="onClickPlayr9"
+                android:background="@drawable/button_bg_3"/>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="5sp"
+                android:textColor="#fff"
+                android:text="\n Are you sleeping? \n Brother John! \n Morning bells are ringing\n Ding, dong, dong."
+                android:textSize="25sp"
+                android:id="@+id/btnplayr10"
+                android:onClick="onClickPlayr10"
+                android:background="@drawable/bg5"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
