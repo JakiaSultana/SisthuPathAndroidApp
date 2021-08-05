@@ -1,0 +1,597 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg1"
+    tools:context="bd.com.websolutionsmb.www.shishupath.Benjonborno">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ক"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/button_bg_5"
+                    android:id="@+id/btnkk1"
+                    android:layout_weight="1"
+                    android:onClick="onClickButkk1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="খ"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:id="@+id/btnkk2"
+                    android:background="@drawable/button_bg_6"
+                    android:onClick="onClickButkk2"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="গ"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:id="@+id/btnkk3"
+                    android:onClick="onClickButkk3"
+                    android:background="@drawable/button_bg_7"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ঘ"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:id="@+id/btnkk4"
+                    android:onClick="onClickButkk4"
+                    android:background="@drawable/button_bg_8"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ঙ"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:id="@+id/btnkk5"
+                    android:onClick="onClickButkk5"
+                    android:background="@drawable/button_bg_9"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="চ"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:onClick="onClickButkk6"
+                    android:background="@drawable/button_bg_10"
+                    android:id="@+id/btnkk6"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ছ"
+                    android:onClick="onClickButkk7"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:id="@+id/btnkk7"
+                    android:background="@drawable/button_bg_11"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="জ"
+                    android:onClick="onClickButkk8"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:id="@+id/btnkk8"
+                    android:background="@drawable/button_bg_12"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ঝ"
+                    android:onClick="onClickButkk9"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:id="@+id/btnkk9"
+                    android:background="@drawable/button_bg_13"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ঞ"
+                    android:onClick="onClickButkk10"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:id="@+id/btnkk10"
+                    android:background="@drawable/button_bg_14"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:onClick="onClickButkk11"
+                    android:text="ট"
+                    android:background="@drawable/button_bg_15"
+                    android:id="@+id/btnkk11"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ঠ"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:onClick="onClickButkk12"
+                    android:background="@drawable/button_bg_5"
+                    android:id="@+id/btnkk12"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ড"
+                    android:onClick="onClickButkk13"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/button_bg_6"
+                    android:id="@+id/btnkk13"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ঢ"
+                    android:onClick="onClickButkk14"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/button_bg_7"
+                    android:id="@+id/btnkk14"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ণ"
+                    android:onClick="onClickButkk15"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/button_bg_8"
+                    android:id="@+id/btnkk15"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ত"
+                    android:onClick="onClickButkk16"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/button_bg_9"
+                    android:id="@+id/btnkk16"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="থ"
+                    android:onClick="onClickButkk17"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/button_bg_10"
+                    android:id="@+id/btnkk17"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text=" দ"
+                    android:onClick="onClickButkk18"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:id="@+id/btnkk18"
+                    android:background="@drawable/button_bg_11"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:text=" ধ"
+                    android:id="@+id/btnkk19"
+                    android:onClick="onClickButkk19"
+                    android:background="@drawable/button_bg_12"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text=" ন"
+                    android:onClick="onClickButkk20"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:background="@drawable/button_bg_13"
+                    android:id="@+id/btnkk20"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="প"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:id="@+id/btnkk21"
+                    android:onClick="onClickButkk21"
+                    android:background="@drawable/button_bg_14"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ফ"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:onClick="onClickButkk22"
+                    android:background="@drawable/button_bg_15"
+                    android:id="@+id/btnkk22"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ব"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:id="@+id/btnkk23"
+                    android:onClick="onClickButkk23"
+                    android:background="@drawable/button_bg_5"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ভ"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:onClick="onClickButkk24"
+                    android:background="@drawable/button_bg_6"
+                    android:id="@+id/btnkk24"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ম"
+                    android:textSize="60sp"
+                    android:onClick="onClickButkk25"
+                    android:textColor="#fff"
+                    android:background="@drawable/button_bg_7"
+                    android:id="@+id/btnkk25"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="য"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:onClick="onClickButkk26"
+                    android:background="@drawable/button_bg_8"
+                    android:id="@+id/btnkk26"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="র"
+                    android:textSize="60sp"
+                    android:onClick="onClickButkk27"
+                    android:textColor="#fff"
+                    android:background="@drawable/button_bg_9"
+                    android:id="@+id/btnkk27"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ল"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:onClick="onClickButkk28"
+                    android:background="@drawable/button_bg_10"
+                    android:id="@+id/btnkk28"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="শ"
+                    android:textSize="60sp"
+                    android:onClick="onClickButkk29"
+                    android:textColor="#fff"
+                    android:background="@drawable/button_bg_11"
+                    android:id="@+id/btnkk29"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ষ"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:onClick="onClickButkk30"
+                    android:background="@drawable/button_bg_12"
+                    android:id="@+id/btnkk30"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="স"
+                    android:textSize="60sp"
+                    android:onClick="onClickButkk31"
+                    android:textColor="#fff"
+                    android:background="@drawable/button_bg_13"
+                    android:id="@+id/btnkk31"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="হ"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:onClick="onClickButkk32"
+                    android:background="@drawable/button_bg_14"
+                    android:id="@+id/btnkk32"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ড়"
+                    android:textSize="60sp"
+                    android:onClick="onClickButkk33"
+                    android:textColor="#fff"
+                    android:background="@drawable/button_bg_15"
+                    android:id="@+id/btnkk33"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ঢ়"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:onClick="onClickButkk34"
+                    android:background="@drawable/button_bg_5"
+                    android:id="@+id/btnkk34"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="য়"
+                    android:textSize="60sp"
+                    android:onClick="onClickButkk35"
+                    android:textColor="#fff"
+                    android:background="@drawable/button_bg_6"
+                    android:id="@+id/btnkk35"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ৎ"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:onClick="onClickButkk36"
+                    android:background="@drawable/button_bg_7"
+                    android:id="@+id/btnkk36"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ং"
+                    android:textSize="60sp"
+                    android:onClick="onClickButkk37"
+                    android:textColor="#fff"
+                    android:background="@drawable/button_bg_8"
+                    android:id="@+id/btnkk37"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ঃ"
+                    android:textSize="60sp"
+                    android:textColor="#fff"
+                    android:onClick="onClickButkk38"
+                    android:background="@drawable/button_bg_9"
+                    android:id="@+id/btnkk38"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:text="ঁ "
+                    android:textSize="60sp"
+                    android:onClick="onClickButkk39"
+                    android:textColor="#fff"
+                    android:background="@drawable/button_bg_10"
+                    android:id="@+id/btnkk39"
+                    android:layout_weight="1" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

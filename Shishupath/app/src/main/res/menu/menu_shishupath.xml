@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="bd.com.websolutionsmb.www.shishupath.Shishupath">
+
+
+
+    <item android:id="@+id/facebook"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/fb"/>
+
+    <item android:id="@+id/youtube"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/youtube"/>
+
+    <item android:id="@+id/blogsite"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/blog"/>
+
+    <item android:id="@+id/twitter"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/twitter"/>
+</menu>
